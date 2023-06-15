@@ -1,0 +1,309 @@
+,CurrentRegion,Latitude,Longitude,Region
+0,Afghanistan,33.93911,67.709953,afghanistan
+1,Africa,-8.783195,34.508523,africa
+2,Central African Republic,6.611110999999999,20.939444,central-africa
+3,East Africa,1.957709,37.2972044,eastern-africa
+4,Egypt,26.820553,30.802498,egypt
+5,Central Africa,2.3184621,19.5687103,middle-africa
+6,North Africa,26.0197776,32.277834,northern-africa
+7,Southern Africa,-24.3570767,19.5687103,southern-africa
+8,West Africa,13.531665,-2.4604145,western-africa
+9,Iraq,33.223191,43.679291,al-qadisiyah
+10,Algeria,28.033886,1.659626,algeria
+11,China,35.86166,104.195397,amdo
+12,Türkiye,38.963745,35.243322,anatolia
+13,USA,38.0049214,-121.805789,antioch
+14,Persian Gulf (also known as the Arabian Gulf),26.7505337,51.6834275,arabian-gulf
+15,Arabia,19.4914108,47.4490397,arabian-peninsula
+16,Asia,34.047863,100.6196553,asia
+17,Caucasus,43.5851814,45.0,caucasus
+18,Central Asia,45.4506875,68.8319005,central-asia
+19,East Asia,38.7945952,106.5348379,east-asia
+20,Himalayas,28.5983159,83.9310039,himalayas
+21,Asia,34.047863,100.6196553,inner-asia
+22,Russia,61.52401,105.318756,north-asia
+23,South Asia,25.03764,76.4563087,south-asia
+24,South East Asia,-2.2179704,115.66283,southeast-asia
+25,Asia,34.047863,100.6196553,southwest-asia
+26,Asia,34.047863,100.6196553,western-asia
+27,Türkiye,38.963745,35.243322,asia-minor
+28,India,26.2006043,92.9375739,assam
+29,Australia,-25.274398,133.775136,australia
+30,Iraq,33.315241,44.3660671,baghdad
+31,Balkans,41.8101472,21.0937311,balkans
+32,Bangladesh,23.684994,90.356331,bangladesh
+33,Iraq,30.5257657,47.77379699999999,basra
+34,Borneo,0.9618833999999999,114.5548495,borneo
+35,Brazil,-14.235004,-51.92528,brazil
+36,Türkiye,38.963745,35.243322,byzantium
+37,Türkiye,41.0082376,28.9783589,constantinople
+38,Israel,31.046051,34.851612,caanan
+39,Israel,31.046051,34.851612,canaan
+40,Canada,56.130366,-106.346771,canada
+41,Tunisia,33.886917,9.537499,carthage
+42,Azerbaijan,39.2009126,45.4082269,nakhchivan-autonomous-republic
+43,China,43.7934299,87.6271,xinjiang/east-turkestan
+44,Vietnam,14.6516511,108.4276047,central-vietnam
+45,China,34.1577499,108.90688,chang'an-(xi'an)
+46,China,35.86166,104.195397,china
+47,China,31.8615699,117.28565,anhui
+48,China,39.904211,116.407395,beijing
+49,China,35.86166,104.195397,early-medieval-china
+50,China,36.0594199,103.82634,gansu
+51,China,23.1317099,113.26627,guangdong
+52,China,23.1290799,113.26436,guangzhou
+53,China,38.0359899,114.46979,hebei
+54,China,34.7657099,113.75322,henan-province
+55,China,30.5453899,114.34234,hubei-province
+56,China,32.0607099,118.76295,jiangsu-province
+57,China,28.6741699,115.91004,jiangxi
+58,China,35.86166,104.195397,jiankang
+59,China,34.5594987,112.4678779,longmen-grottoes
+60,China,34.6181299,112.45402,luoyang
+61,China,34.2648599,108.95424,shaanxi-province陝西省
+62,China,36.6682599,117.02076,shandong
+63,China,31.230416,121.473701,shanghai
+64,China,37.8734299,112.56272,shanxi
+65,China,30.6508899,104.07572,sichuan四川
+66,China,35.86166,104.195397,six-dynasties-china
+67,China,35.86166,104.195397,song-china
+68,China,29.720415,112.650141,yangzi-river-valley
+69,China,36.519334,116.610556,yellow-river-valley
+70,China,29.720415,112.650141,yellow-and-yangzi-rivers-region
+71,China,30.2655499,120.1536,zhejiang
+72,Cyprus,35.126413,33.429859,cyprus
+73,Cyprus,35.126413,33.429859,kition
+74,Cyprus,34.9182222,33.6200625,larnaca
+75,Cyprus,34.77539489999999,32.4217786,paphos
+76,Croatia,45.1,15.2,dalmatia
+77,India,28.7040592,77.10249019999999,delhi
+78,Democratic Republic of the Congo,-4.038333,21.758664,democratic-republic-of-the-congo
+79,Denmark,56.26392,9.501785,denmark
+80,Indonesia,-7.5360639,112.2384017,east-java
+81,Eastern Europe,52.0055148,37.95874939999999,eastern-europe
+82,Mediterranean Sea,34.5531284,18.0480105,eastern-mediterranean
+83,Greece,40.8016803,22.0439798,edessa
+84,Syria,34.80207499999999,38.996815,edessan-region
+85,Egypt,26.820553,30.802498,amarna
+86,Egypt,27.5497708,30.7183247,bawit
+87,Egypt,30.0444196,31.2357116,cairo
+88,Egypt,25.7372608,32.6077347,deir-el-bahari
+89,Deir al Balah,31.417139,34.350931,deir-el-bala’izah
+90,Egypt,27.7562255,30.9038389,deir-el-bersha
+91,Egypt,25.6872431,32.6396357,"deir-el-medina,-west-bank-luxor"
+92,Egypt,27.7756546,30.8002609,hermopolis-(el-ashmunein)
+93,Sudan,18.052469,30.94981,tabennisi-(pachomius)
+94,Egypt,25.7401643,32.601411,valley-of-the-kings
+95,Egypt,30.4698437,30.2743484,"wadi-al-natrun:-nitria,-scetis,-kellia"
+96,Egypt,26.820553,30.802498,white-monastery
+97,Egypt,26.820553,30.802498,el-asasif
+98,Egypt,25.6872431,32.6396357,luxor
+99,Egypt,26.820553,30.802498,egyptian-desert
+100,Egypt,24.083333,32.883333,elephantine
+101,UK,52.3555177,-1.1743197,england
+102,UK,51.5072178,-0.1275862,london
+103,Europe,54.5259614,15.2551187,europe
+104,British Isles,54.65837269999999,-5.707144700000001,british-isles
+105,Northern Europe,62.27864750000001,12.3401708,northern-europe
+106,Scandinavia,62.27864750000001,12.3401708,scandinavia
+107,Balkans,41.8101472,21.0937311,southeastern-europe
+108,Southern Europe,41.2745004,-1.2121322,southern-europe
+109,Western Europe,46.2021848,1.2643875,western-europe
+110,Spain,40.46366700000001,-3.74922,galicia
+111,Israel,31.046051,34.851612,galilee
+112,Israel,31.046051,34.851612,gaul
+113,Germany,51.165691,10.451526,germany
+114,Germany,49.9928617,8.2472526,mainz
+115,Germany,49.0134297,12.1016236,regensburg
+116,Germany,49.3172765,8.441217199999999,speyer
+117,Germany,51.165691,10.451526,worms
+118,,,,global
+119,,,,cybersect
+120,Indonesia,-5.310288799999999,119.742604,gowa-regency
+121,Greece,39.074208,21.824312,greece
+122,Greece,39.074208,21.824312,aegean
+123,Greece,39.074208,21.824312,attica
+124,Greece,39.074208,21.824312,boeotia
+125,Greece,38.6043984,22.7152131,central-greece
+126,Greece,35.240117,24.8092691,crete
+127,Greece,36.33761965,27.17470585,dodecanese
+128,Greece,39.074208,21.824312,laconia
+129,North Macedonia,41.608635,21.745275,macedonia
+130,Greece,39.074208,21.824312,marathon
+131,Greece,40.2644928,24.2152731,mount-athos
+132,Aegean Islands,38.09556411145435,25.65031695609477,northern-aegean-islands
+133,Greece,39.074208,21.824312,northern-greece
+134,Greece,37.349722,22.352222,peloponnese
+135,Greece,38.5598641,22.1430215,phokis
+136,Greece,40.6400629,22.9444191,thessaloniki
+137,Greece,39.6102887,22.047637,thessaly
+138,Greece,39.074208,21.824312,thrace
+139,Greece,38.5115496,21.5706786,western-greece
+140,India,22.6708317,71.5723953,gujarat
+141,India,29.0587757,76.085601,haryana
+142,United Kingdom,56.5641092,-5.931391200000001,hebrides
+143,Hong Kong,22.3193039,114.1693611,hong-kong
+144,Spain,40.46366700000001,-3.74922,iberia
+145,India,20.593684,78.96288,india
+146,India,15.2993265,74.12399599999999,goa
+147,Konkan,19.3529794,73.2765361,konkan
+148,India,19.7514798,75.7138884,maharashtra
+149,Northeast India,25.5736012,93.24725649999999,northeast-india
+150,India,19.0759837,72.8776559,southern-gujarat-and-mumbai
+151,Western India,23.9074276,72.7097161,western-india
+152,Indonesia,-0.789275,113.921327,indonesia
+153,Indonesia,-2.8441371,119.2320784,west-sulawesi
+154,,,,international
+155,Iran,32.427908,53.688046,iran
+156,Iraq,33.223191,43.679291,iraq
+157,Ireland,53.77975540000001,-7.3055309,ireland
+158,Israel,31.046051,34.851612,israel
+159,Gaza,31.5016951,34.4668445,gaza
+160,Israel,31.768319,35.21371,jerusalem
+161,Italy,41.87194,12.56738,italy
+162,Italy,41.87194,12.56738,etruria
+163,Italy,41.87194,12.56738,magna-graecia
+164,Greece,39.074208,21.824312,naples
+165,Italy,41.7311182,12.2862694,ostia
+166,Italy,41.9027835,12.4963655,rome
+167,Italy,40.1208752,9.012892599999999,sardinia
+168,Italy,37.5999938,14.0153557,sicily
+169,Japan,36.204824,138.252924,japan
+170,Japan,36.16999990000001,138.04,honshu
+171,Japan,36.204824,138.252924,kyushu
+172,Japan,33.7432238,133.6375314,shikoku
+173,Indonesia,-0.789275,113.921327,java
+174,Jordan,30.585164,36.238414,jordan
+175,Israel,31.046051,34.851612,edom
+176,Jordan,30.585164,36.238414,jordan-valley
+177,Israel,31.046051,34.851612,judean-desert
+178,India,15.3172775,75.7138884,karnataka
+179,Nepal,27.6666667,85.35,kathmandu-valley
+180,India,10.1631526,76.64127119999999,kerala
+181,Iraq,32.047243,44.3709408,kufa
+182,Iraq,36.4103395,44.38719529999999,kurdistan
+183,Caribbean,21.4691137,-78.6568942,latin-america-and-the-caribbean
+184,Caribbean,21.4691137,-78.6568942,caribbean
+185,Central America,12.7690126,-85.60236429999999,central-america
+186,Mexico,23.634501,-102.552784,mexico
+187,South America,-8.783195,-55.491477,south-america
+188,Maghreb,25.6422079,2.4604145,le-grand-maghreb
+189,Lebanon,33.854721,35.862285,lebanon
+190,Levant,34.0757336,37.9784585,levant
+191,Mediterranean Sea,34.5531284,18.0480105,mediterranean-coast
+192,Levant,34.0757336,37.9784585,southern-levant
+193,India,22.9734229,78.6568942,madhya-pradesh
+194,Greece,36.7721873,22.3814624,"mani,-messinia"
+195,Belize,17.189877,-88.49765,mesoamerica
+196,Middle East,29.2985278,42.5509603,middle-east
+197,Iraq,33.223191,43.679291,babylonia
+198,Iraq,33.223191,43.679291,chaldea
+199,Iraq,34.5337527,43.483738,mesopotamia
+200,Syria,34.80207499999999,38.996815,syria
+201,Türkiye,38.963745,35.243322,turkey
+202,Mongolia,46.862496,103.846656,mongolia
+203,Nepal,28.394857,84.12400799999999,nepal
+204,New Zealand,-40.900557,174.885971,new-zealand
+205,Nigeria,9.081999,8.675277,nigeria
+206,North Africa,26.0197776,32.277834,north-africa
+207,North America,54.5259614,-105.2551187,north-america
+208,Arctic,76.2505778,-100.1139521,arctic-and-subarctic
+209,Caribbean,21.4691137,-78.6568942,mesoamerica-and-the-caribbean
+210,United States,37.09024,-95.712891,united-states-of-america
+211,North Korea,40.339852,127.510093,north-korea
+212,Indonesia,2.1153547,99.54509739999999,north-sumatra
+213,USA,43.2994285,-74.21793260000001,northeastern-united-states
+214,United Kingdom,55.378051,-3.435973,northern-britain
+215,Iraq,33.223191,43.679291,northern-iraq
+216,UK,54.7877149,-6.4923145,northern-ireland
+217,Belize,17.189877,-88.49765,occidente-de-mesoamérica
+218,Oceania,-22.7359095,140.0187653,oceania
+219,Melanesia,-8.190185699999999,152.8264684,melanesia
+220,Micronesia,7.425554,150.550812,micronesia
+221,Polynesia,-16.8395019,-148.3716902,polynesia
+222,India,20.2375561,84.2700179,odisha
+223,Oman,21.4735329,55.975413,oman
+224,UK,58.9809401,-2.9605206,orkney
+225,Pakistan,30.375321,69.34511599999999,pakistan
+226,Palestine,31.952162,35.233154,palestine
+227,Iran,32.427908,53.688046,persianate-world
+228,Peru,-9.189967,-75.015152,peru
+229,Türkiye,38.963745,35.243322,phrygia
+230,UK,56.49067119999999,-4.2026458,pictland
+231,Portugal,39.39987199999999,-8.224454,portugal
+232,United Kingdom,55.378051,-3.435973,prydain
+233,Puerto Rico,18.220833,-66.590149,puerto-rico
+234,India,31.1471305,75.34121789999999,punjab
+235,India,27.0238036,74.21793260000001,rajasthan
+236,Romania,45.943161,24.96676,romania
+237,Russia,61.52401,105.318756,russia
+238,Saudi Arabia,23.885942,45.079162,saudi-arabia
+239,UK,56.49067119999999,-4.2026458,scotland
+240,UK,60.5296507,-1.2659408,shetland-islands
+241,China,30.6508899,104.07572,sichuan
+242,China,35.86166,104.195397,sichuan-basin
+243,China,35.86166,104.195397,song-dynasty
+244,South Africa,-30.559482,22.937506,south-africa
+245,Orinoco,5.459619310406225,-65.01373140261339,amazon-and-orinoco
+246,Argentina,-38.416097,-63.61667199999999,argentina
+247,Bolivia,-16.290154,-63.58865299999999,bolivia-(plurinational-state-of)
+248,Chile,-35.675147,-71.542969,chile
+249,Colombia,4.570868,-74.297333,colombia
+250,Ecuador,-1.831239,-78.18340599999999,ecuador
+251,French Guiana,3.933889,-53.125782,french-guiana
+252,Guyana,4.860416,-58.93018,guyana
+253,Paraguay,-23.442503,-58.443832,paraguay
+254,Patagonia,-41.8101472,-68.9062689,patagonia
+255,Suriname,3.919305,-56.027783,suriname
+256,Uruguay,-32.522779,-55.765835,uruguay
+257,Venezuela,6.42375,-66.58973,venezuela
+258,Pakistan,30.5,70.1666667,sulaiman-mountains
+259,South India,12.2601557,77.1461396,south-india
+260,South Korea,35.907757,127.766922,south-korea
+261,Indonesia,-3.6687994,119.9740534,south-sulawesi
+262,Cambodia,12.565679,104.990963,cambodia
+263,Indonesia,-1.8479,120.5279,southeast-sulawesi
+264,Iraq,33.223191,43.679291,southern-iraq
+265,China,35.86166,104.195397,southwest-china
+266,Spain,40.46366700000001,-3.74922,spain
+267,Sri Lanka,7.873053999999999,80.77179699999999,sri-lanka
+268,Africa,-8.783195,34.508523,sub-saharan-africa
+269,Sudan,12.862807,30.217636,sudan
+270,Indonesia,-0.589724,101.3431058,sumatra
+271,Taiwan,23.69781,120.960515,taiwan
+272,Taiwan,23.69781,120.960515,yiguan-dao-presence-in-taiwan
+273,India,20.593684,78.96288,tamilakam
+274,China,29.6472399,91.11744999999999,tibet
+275,,,,transnational
+276,Tunisia,33.886917,9.537499,tunisia
+277,Tunisia,36.5072263,8.7756556,جندوبة
+278,Türkiye,38.6586639,34.8531604,cappadocia
+279,Türkiye,37.2231663,38.9224119,göbekli-tepe
+280,Türkiye,41.0082376,28.9783589,istanbul
+281,Turkmenistan,38.969719,59.556278,turkmenistan
+282,Ukraine,48.379433,31.16558,ukraine
+283,United Arab Emirates,23.424076,53.847818,united-arab-emirates
+284,United Kingdom,55.378051,-3.435973,united-kingdom
+285,United States,37.09024,-95.712891,united-states
+286,USA,63.588753,-154.4930619,alaska
+287,USA,36.778261,-119.4179324,california
+288,USA,19.8986819,-155.6658568,hawaii
+289,United States,37.09024,-95.712891,lower-48
+290,USA,40.7127753,-74.0059728,new-york
+291,USA,41.2033216,-77.1945247,pennsylvania
+292,USA,35.5174913,-86.5804473,tennessee
+293,USA,31.9685988,-99.9018131,texas
+294,USA,39.3209801,-111.0937311,utah
+295,India,27.5705886,80.0981869,uttar-pradesh
+296,Uzbekistan,41.377491,64.585262,uzbekistan
+297,Pyrenees,42.6681804,1.0011899,vasco-aquitanian-roman-pyrenees
+298,Vietnam,14.058324,108.277199,vietnam
+299,Vietnam,11.0903703,108.0720781,binh-thuan
+300,Vietnam,11.5752791,108.1428669,lam-dong
+301,Vietnam,15.7687821,108.1193154,mỹ-sơn
+302,Vietnam,11.6738767,108.8629572,ninh-thuan
+303,UK,52.1306607,-3.7837117,wales
+304,Asia,34.047863,100.6196553,west-asia
+305,India,20.593684,78.96288,western-coast-of-india
+306,Yemen,15.552727,48.516388,yemen
+307,Spain,37.5442706,-4.7277528,al-andalus

@@ -1,0 +1,82 @@
+from datetime import datetime, timedelta
+from selenium import webdriver
+from selenium.common.exceptions import (ElementClickInterceptedException,
+                                        StaleElementReferenceException,TimeoutException)
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+import pandas as pd
+from selenium.webdriver.chrome.options import Options
+
+# click method for handling exceptions for over 1000 clicks on the webpage
+# received help on this on stackoverflow
+#https://stackoverflow.com/questions/76132326/selenium-python-multiple-button-clicks-on-a-page-not-working
+
+def click(locator, timeout_in_seconds):
+    timeout = datetime.now() + timedelta(seconds=timeout_in_seconds)
+    while datetime.now() < timeout:
+        try:
+            WebDriverWait(driver, timeout_in_seconds).until(EC.element_to_be_clickable(locator)).click()
+        except (ElementClickInterceptedException, StaleElementReferenceException,TimeoutException):
+            # do nothing, loop again
+            pass
+
+
+
+chrome_options = Options()
+#chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+
+#1 Load the webpage, start an instance of selenium webdriver for driving the browser
+web = 'https://religiondatabase.org/browse/regions'
+driver = webdriver.Chrome(chrome_options=chrome_options)
+driver.get(web)
+driver.maximize_window()
+
+#2. Locate all the buttons with the text 'more' and click on them
+wait = WebDriverWait(driver, 10)
+locator = (By.XPATH, "//button[contains(text(), 'more')]")
+z = wait.until(EC.visibility_of_any_elements_located(locator))
+
+for button in range(0,104,1):
+    click(locator, 5)
+
+print("Done")
+
+#3. Extact information from the webpage. I used the 'container' to hold all the elements in the content, and then extract region and other
+#item details
+container = WebDriverWait(driver,15).until(EC.presence_of_element_located((By.XPATH,'.//div[contains(@class,"content")]')))
+elements = WebDriverWait(container,15).until(EC.presence_of_all_elements_located((By.XPATH,'.//div[contains(@class,"group")]')))
+region_name = []
+for element in elements:
+    region_name.append(element.get_attribute('id'))
+
+
+#print(region_name)    
+#print(len(elements))
+#print(len(region_name))
+
+region_vec = []
+entity_vec = []
+details_raw = []
+for element in elements:
+    region = element.get_attribute('id')
+    entities = WebDriverWait(element,15).until(EC.presence_of_all_elements_located((By.XPATH,'.//div[contains(@class,"col-md-6")]')))
+    for entity in entities:
+        region_vec.append(region)
+        entity_vec.append(entity.find_element('xpath', './/h4[contains(@class,"title")]/a').text)
+        detail_elements = WebDriverWait(entity,15).until(EC.presence_of_all_elements_located((By.XPATH,'.//div[contains(@class, "entryDetailsItem-0-2-62")]')))
+        details = []
+        wait = WebDriverWait(driver, 10)
+        for det_ele in detail_elements:
+            details.append(det_ele.text)
+        details_raw.append(details)
+driver.quit()
+
+#4. Generate a csv containing the scraped data, in the next step this data will be cleaned for analysis.
+df = pd.DataFrame({'region': region_vec, 'Group': entity_vec, 'details': details_raw})
+df.to_csv('religion_data.csv', index=False)
+
+
+
